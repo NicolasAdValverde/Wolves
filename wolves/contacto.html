@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../Estilos/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/f49ea73116.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Cerveceria wolves - contacto</title>
+  </head>
+<body>
+    <!-- GRID -->
+    <div class="gridQuienesSomos__container">
+      <!-- HEADER Y NAV -->
+      <header>
+        <div class="divHeader">
+          <nav>
+            <div class="headerImagen__container">
+              <img
+              class="header__imagen"
+              src="../imagenes/logo_wolves.png"
+              alt=""
+              />
+            </div>
+            <input type="checkbox" id="check" />
+            <label for="check" class="bar-btn">
+              <i class="fas fa-align-justify"></i>
+            </label>
+            <ul class="nav-menu">
+              <li><a  href="index.html">Home</a></li>
+              <li><a href="menu.html">Menu</a></li>
+              <li><a href="cervezas.html">Cervezas</a></li>
+              <li><a href="quienesSomos.html">Quienes somos</a></li>
+              <li><a class="active" href="contacto.html">Contacto</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <!-- MAIN -->
+      <main class="main__contacto">
+        <!-- FORMULARIO -->
+        <div class="tittleContacto__container">
+          <h2> Tu opinion nos interesa</h2>
+      </div>
+      <br />
+      <div class="main__formContainer">
+        <form>
+          <div>
+            <label for="user">Nombre&nbsp</label>
+            <input
+              type="text"
+              id="user"
+              name="user"
+              size="30"
+              placeholder="Inserte su nombre"
+            /><br /><br />
+          </div>
+          <div>
+            <label for="user">Apellido&nbsp</label>
+            <input
+              type="text"
+              id="user"
+              name="user"
+              size="30"
+              placeholder="Inserte su apellido"
+            /><br /><br />
+          </div>
+          <div>
+            <label for="fecha">Fecha de nacimiento&nbsp</label>
+            <input
+              type="number"
+              id="fecha"
+              name="fecha"
+              size="30"
+              min="1940"
+              placeholder="Inserte su fecha de nacimiento"
+            /><br /><br />
+          </div>
+          <div>
+            <p>Indique su sexo</p>
+            <br />
+            <label for="sexo"></label>
+            <select name="sexo" id="sexo">
+              <option value="-"></option>
+              <option value="H">Hombre</option>
+              <option value="M">Mujer</option>
+              <option value="O">Otro</option>
+            </select>
+            <br /><br />
+          </div>
+          <p>Queremos mejorar y nos interesa tu opinion</p>
+          <br />
+          <textarea
+            name="texto"
+            rows="4"
+            cols="40"
+            placeholder="Dejanos tu comentario"
+          ></textarea
+          ><br /><br />
+          <input class="submit" type="submit" value="Enviar" />&nbsp&nbsp&nbsp
+          <input class="reset" type="reset" value="Borrar" />
+        </form>
+      </div>
+      <!-- FOOTER -->
+      <!-- LOGO -->
+      <footer class="footer__grid">
+        <div class="logo__footer">
+          <img src="../imagenes/logo_wolves.png" alt="logo_wolves" />
+        </div>
+        <!-- CONTACTO -->
+        <div class="contacto__footer">
+          <h2>CONTACTO</h2>
+          <h4>Dirección: Oliden 732, Valentín Alsina, Lanus.</h4>
+          <h4>Mail: Cerveceria.wolves@gmail.com</h4>
+        </div>
+        <!-- LINK SECCIONES -->
+        <div class="secciones__footer">
+          <h2>SECCIONES</h2>
+          <a class="link__footer" href="index.html">Home</a>
+          <a class="link__footer" href="menu.html">Menu</a>
+          <a class="link__footer" href="cervezas.html">Cervezas</a>
+          <a class="link__footer" href="quienesSomos.html">Quienes somos</a>
+            <a class="link__footer" href="contacto.html">Contacto</a>
+          </div>
+          <!-- REDES SOCIALES -->
+          <div class="redes__footer">
+            <h2>REDES SOCIALES</h2>
+          </div>
+          <div class="redes__imagen">
+            <a class="linkRedes__footer" href="#">
+              <img
+              class="linkRedes__footer--imagen"
+              src="../imagenes/logo-instagram.png"
+              alt="instagram"
+              />
+            </a>
+            <a class="linkRedes__footer" href="#">
+              <img
+              class="linkRedes__footer--imagen"
+              src="../imagenes/logo-facebook.png"
+              alt="facebook"
+              />
+            </a>
+            <a class="linkRedes__footer" href="#">
+              <img
+              class="linkRedes__footer--imagen"
+              src="../imagenes/logo-google.png"
+              alt="google"
+              />
+            </a>
+          </div>
+          <div class="copyright">
+            <h4>Realizado por Valverde Nicolás - 2021</h4>
+          </div>
+        </footer>
+        
+      </main>
+    </div>
+  </div>
+  </body>
+  </html>
