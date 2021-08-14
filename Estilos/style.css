@@ -41,69 +41,25 @@ body {
 
 /* MENU NAV */
 
-.fas {
-    color: #fff;
+.navbar-brand img {
+    height: 6rem;
 }
 
-nav {
-    height: 5rem;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.navbar {
+    padding-top: 0;
+    padding-bottom: 0;
+    position: relative;
+}
+.offcanvas-header {
+    background-color: #0a6d4f;
 }
 
-.bar-btn {
-    font-size: 2rem;
-    color: #fff;
-    margin-right: 2rem;
-    cursor: pointer;
+.offcanvas-body {
+    background-color: #0a6d4f;
 }
 
-.nav-menu {
-    grid-column: 1/2;
-    grid-row: 1/2;
-    position: fixed;
-    width: 100%;
-    top: 4.5rem;
-    background: rgba(0, 0, 0, 0.884);
-    text-align: center;
-    transition: all 3s;
-}
-
-.nav-menu li {
-    display: none;
-    line-height: 1rem;
-    margin: 4rem;
-    transition: all 1s;
-}
-
-.nav-menu li a {
-    color: #fff;
-    font-size: 1rem;
-    text-transform: uppercase;
-    font-weight: 600;
-    text-decoration: none;
-}
-
-.nav-menu li a.active {
-    color: #0a6d4f;
-}
-.nav-menu li a:hover {
-    color: #0a6d4f;
-    transition: 0.3s;
-}
-
-#check {
-    display: none;
-}
-
-#check:checked ~ .nav-menu {
-    height: 50vh;
-}
-
-#check:checked ~ .nav-menu li {
-    display: block;
+.offcanvas-title {
+    font-size: 3rem;
 }
 
 /* MAIN */
@@ -1078,4 +1034,12 @@ main {
     color: #fff;
     font-size: 1rem;
     letter-spacing: 0.2rem;
+}
+
+/* --------------- MEDIA QUERIS ------------- */
+
+@media (min-width: 1024px) {
+    .divHeader-mobile {
+        display: none;
+    }
 }
