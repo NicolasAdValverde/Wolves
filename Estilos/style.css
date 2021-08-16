@@ -39,7 +39,7 @@ body {
     height: 5rem;
 }
 
-/* MENU NAV */
+/* MENU NAV MOBILE*/
 
 .navbar-brand img {
     height: 6rem;
@@ -60,6 +60,24 @@ body {
 
 .offcanvas-title {
     font-size: 3rem;
+}
+
+/* MENU NAV DESKTOP */
+
+.navbar-brand img {
+    height: 5rem;
+}
+
+.nav-link a:hover {
+    color: #fff;
+}
+
+.nav-link {
+    font-size: 1.5rem;
+}
+
+.navbar-nav {
+    gap: 1rem;
 }
 
 /* MAIN */
@@ -1036,10 +1054,16 @@ main {
     letter-spacing: 0.2rem;
 }
 
-/* --------------- MEDIA QUERIS ------------- */
+/* --------------- MEDIA QUERIES ------------- */
 
 @media (min-width: 1024px) {
     .divHeader-mobile {
+        display: none;
+    }
+}
+
+@media (max-width: 1024px) {
+    .desktop {
         display: none;
     }
 }
