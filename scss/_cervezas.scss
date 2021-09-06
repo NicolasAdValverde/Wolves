@@ -1,0 +1,47 @@
+/* GRID */
+
+.gridCervezas__container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr, 3rem, 12rem, 1fr, 1fr, 1fr;
+}
+
+/* section 1  */
+
+.tittle__fabricas {
+    grid-column: 1/1;
+    grid-row: 2/3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h2 {
+        color: $color-claro;
+        text-align: center;
+    }
+}
+/* section 2  */
+
+.fabricas__img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+        height: 15rem;
+        width: 100%;
+        object-fit: contain;
+        padding: 1rem;
+    }
+}
+/* section 3   */
+
+.section3__cervezas {
+    background-image: url(../imagenes/cervezafondo.jpg);
+    background-size: cover;
+    margin: 0 1rem;
+}
+
+.section3__fondo {
+    margin: 1rem;
+    background-color: rgba(0, 0, 0, 0.178);
+}

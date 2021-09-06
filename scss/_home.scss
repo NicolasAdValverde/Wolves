@@ -1,0 +1,269 @@
+//GRID PRINCIPAL
+.grid__container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr auto 30rem;
+}
+
+/* MAIN */
+
+main {
+    height: 80vh;
+}
+
+/* SECTION 1   */
+
+.section1 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        height: 15rem;
+        margin: auto;
+        object-fit: contain;
+    }
+}
+
+/* SECTION 2  */
+
+.section2 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    p {
+        color: $color-claro;
+        padding: 1rem 1rem;
+        text-align: center;
+    }
+}
+
+/* SECTION 3 */
+
+.section3 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        height: 15rem;
+        margin: auto;
+        object-fit: contain;
+    }
+}
+
+/* SECTION 4  */
+
+.section4 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    p {
+        color: $color-claro;
+        padding: 1rem 1rem;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+}
+
+/* SECTION 5  */
+
+.section5 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        height: 15rem;
+        margin: auto;
+        object-fit: contain;
+    }
+}
+
+/* SECTION 6  */
+
+.section6 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    p {
+        color: $color-claro;
+        padding: 1rem 1rem;
+        text-align: center;
+    }
+}
+
+/* SECTION 7 */
+
+.section7 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        height: 15rem;
+        margin: auto;
+        object-fit: contain;
+    }
+}
+
+/* SECTION 8 */
+
+.section8 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    p {
+        color: $color-claro;
+        padding: 1rem 1rem;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+}
+
+/* SECTION 9 TITULO */
+.section9 {
+    &__div {
+        grid-column: 1/2;
+        grid-row: 2/3;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 10rem;
+        color: $color-claro;
+        margin: 3rem 0;
+    }
+    &__div--tittle {
+        background-image: url(../imagenes/cervezafondo.jpg);
+        background-repeat: repeat;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 3rem;
+        text-align: center;
+        font-weight: bold;
+        letter-spacing: 0.5rem;
+        font-weight: bolder;
+        -webkit-font-smoothing: antialiased;
+        border-top: 0.1rem solid $color-wolves;
+        border-bottom: 0.1rem solid $color-wolves;
+    }
+}
+/* SECTION 10 */
+
+.section10 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section10 div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 0;
+    padding: 0 0.5rem;
+}
+
+.imagen__redonda img {
+    height: 8rem;
+    width: 70%;
+    border-radius: 50%;
+    padding: 0.2rem;
+}
+
+/* SECTION 11 */
+
+.section11 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h2 {
+        color: $color-claro;
+        border-bottom: 0.2rem solid $color-wolves;
+        margin-bottom: 1rem;
+    }
+}
+
+/* SECTION 12  */
+
+.section12 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &__imagen img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        height: 15rem;
+        margin: auto;
+        object-fit: contain;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+}
+
+/* SECTION 13 */
+
+.section13 {
+    grid-column: 1/1;
+    grid-row: 2/3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h2 {
+        color: $color-claro;
+        text-align: center;
+        padding: 0 0.5rem;
+    }
+}
+
+/* SECTION 14 */
+
+.section14 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    ul li {
+        color: $color-claro;
+        margin-bottom: 1rem;
+    }
+}

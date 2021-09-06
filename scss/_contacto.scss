@@ -1,0 +1,59 @@
+/* grid */
+
+.gridQuienesSomos__container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+}
+
+/* SECTION 1 CONTACTO */
+
+.tittleContacto__container {
+    grid-column: 1/1;
+    grid-row: 1/1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    h2 {
+        color: $color-claro;
+        text-align: center;
+        border-bottom: 0.1rem solid $color-wolves;
+    }
+}
+/* SECTION 2   */
+
+.main__contacto {
+    overflow: auto;
+}
+
+.main__formContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $color-claro;
+    margin: 3rem;
+}
+
+.h2-contacto2 {
+    text-align: center;
+    font-size: x-large;
+    color: $color-claro;
+}
+
+.form__input {
+    border: none;
+    background-color: transparent;
+}
+
+.submit,
+.reset {
+    margin-left: 3rem;
+    background-color: $color-wolves;
+    border-radius: 10%;
+    height: 2rem;
+    width: 5rem;
+    color: $color-claro;
+    font-size: 1rem;
+    letter-spacing: 0.2rem;
+}

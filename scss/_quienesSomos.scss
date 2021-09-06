@@ -1,0 +1,64 @@
+/* GRID */
+
+.gridQuienesSomos__container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row: 1fr;
+}
+
+/* SECTION 1 QUIENES SOMOS */
+
+.imgQuienesSomos__container {
+    grid-column: 1/1;
+    grid-row: 1/1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    & img {
+        width: 100%;
+        height: 20rem;
+        object-fit: cover;
+    }
+}
+/* SECTION 2  */
+
+.paragraph__container {
+    grid-column: 1/1;
+    grid-row: 1/1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    p {
+        color: $color-claro;
+        text-align: center;
+        margin-top: 2rem;
+    }
+}
+/* SECTION 3  */
+
+.h2QuienesSomos__container {
+    grid-column: 1/1;
+    grid-row: 1/1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+.h2QuienesSomos__container h2 {
+    color: #fff;
+    border-bottom: solid 0.1rem $color-wolves;
+    margin-bottom: 3rem;
+}
+
+/* SECTION 4 QUIENES SOMOS  */
+
+.QuienesSomos__ubicacion {
+    grid-column: 1/1;
+    grid-row: 1/1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

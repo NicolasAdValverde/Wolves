@@ -1,0 +1,18 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Barlow Semi Condensed", sans-serif;
+}
+
+html {
+    font: 62.5%;
+}
+
+/* GENERAL */
+
+body {
+    display: flex;
+    min-height: 100vh;
+    background: #000;
+}

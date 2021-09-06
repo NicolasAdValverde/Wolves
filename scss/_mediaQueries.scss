@@ -1,0 +1,62 @@
+@media (min-width: 1024px) {
+    .divHeader-mobile {
+        display: none;
+    }
+    .section1,
+    .section2,
+    .section3,
+    .section4,
+    .section5,
+    .section6,
+    .section7,
+    .section8 {
+        display: none;
+    }
+    .section1__menu,
+    .section2__menu,
+    .section3__menu,
+    .section4__menu,
+    .section5__menu,
+    .section6__menu,
+    .section7__menu,
+    .section8__menu,
+    .section9__menu,
+    .section10__menu,
+    .section11__menu,
+    .section12__menu {
+        background-position: center;
+    }
+
+    .section10 {
+        width: 100%;
+    }
+    .imagen__redonda img {
+        width: 70%;
+        height: 15rem;
+        gap: 7rem;
+    }
+
+    .section9 {
+        margin: 5rem 0;
+    }
+
+    .section9__div--tittle {
+        font-size: 8rem;
+    }
+}
+
+@media (max-width: 1024px) {
+    .desktop {
+        display: none;
+    }
+    #carouselExampleControls {
+        display: none;
+    }
+    .carousel {
+        display: none;
+    }
+
+    .slide {
+        display: none;
+    }
+}

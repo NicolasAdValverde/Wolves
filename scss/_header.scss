@@ -1,0 +1,54 @@
+//HEADER
+
+.divHeader {
+    display: flex;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.514);
+    grid-template: 1/2;
+    grid-row: 1/2;
+}
+
+.header__imagen {
+    height: 5rem;
+}
+
+/* MENU NAV MOBILE*/
+
+.navbar-brand img {
+    height: 6rem;
+}
+
+.navbar {
+    padding-top: 0;
+    padding-bottom: 0;
+    position: relative;
+}
+.offcanvas-header {
+    background-color: #0a6d4f;
+}
+
+.offcanvas-body {
+    background-color: #0a6d4f;
+}
+
+.offcanvas-title {
+    font-size: 3rem;
+}
+
+/* MENU NAV DESKTOP */
+
+.navbar-brand img {
+    height: 5rem;
+}
+
+.nav-link a:hover {
+    color: #fff;
+}
+
+.nav-link {
+    font-size: 1.5rem;
+}
+
+.navbar-nav {
+    gap: 1rem;
+}
